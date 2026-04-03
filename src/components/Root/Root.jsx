@@ -6,9 +6,9 @@ import Sidebar from '../Sidebar/Sidebar';
 
 const Root = () => {
     return (
-        <div>
+        <div className='flex flex-col justify-center items-center-safe'>
             <Header></Header>
-            <div className="flex gap-5">
+            <div className="flex gap-5 justify-evenly items-center">
                 <Sidebar></Sidebar>
                 <Outlet></Outlet>
             </div>
